@@ -1,0 +1,43 @@
+html, body {
+    padding: 0;
+    margin: 0;
+}
+
+div {
+    border: 1px solid red;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+}
+
+#container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.book {
+    border: 1px solid red;
+    width: 20vw;
+    margin: 1rem;
+    text-align: center;
+}
+
+.form-row {
+    display: flex;
+    margin-bottom: 1rem;
+}
+
+#popup {
+    width: 35vw;
+}
+
+#header {
+    width: 100vw;
+    height: 20vh;
+}

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="library.css">
+    <title>>Library</title>
+</head>
+<body>
+    <h1>TODO: delete button, button to toggle read status, overall appearance</h1>
+    <div id="header">
+        <button id="addBook">Add Book</button>
+    </div>
+    
+    <div id="container">
+        
+    </div>
+
+    <dialog id="popup">
+        <form id="form">
+
+            <div class="form-row">
+                <label for="title">Title</label><input id="title" type="text">
+            </div>
+
+            <div class="form-row">
+                <label for="author">Author</label><input id="author" type="text">
+            </div>
+
+            <div class="form-row">
+                <label for="pageCount">Page count</label><input id="pageCount" type="text">
+            </div>
+
+            <div class="form-row">
+                <label for="status">Reading status</label><input id="status" type="text">
+            </div>
+
+            <button type="submit">Submit</button>
+        </form>
+
+        <button id="close">Close</button>
+    </dialog>
+
+    <script src="library.js"></script>
+</body>
+</html>
