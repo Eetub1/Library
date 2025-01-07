@@ -11,32 +11,25 @@
     <div id="header">
         <button id="addBook">Add Book</button>
     </div>
-    
     <div id="container">
-        
     </div>
-
     <dialog id="popup">
         <form id="form">
-
             <div class="form-row">
                 <label for="title">Title</label><input required id="title" type="text">
             </div>
-
             <div class="form-row">
                 <label for="author">Author</label><input required id="author" type="text">
             </div>
-
             <div class="form-row">
                 <label for="pageCount">Page count</label><input required id="pageCount" type="number">
             </div>
-
-            <button type="submit">Submit</button>
         </form>
-
-        <button id="close">Close</button>
+        <div id="buttons">
+            <button type="submit">Submit</button>
+            <button id="close">Close</button>
+        </div>
     </dialog>
-
     <script src="library.js"></script>
 </body>
 </html>
