@@ -4,10 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="library.css">
-    <title>>Library</title>
+    <title>Library</title>
 </head>
 <body>
-    <h1>TODO: delete button, button to toggle read status, overall appearance</h1>
+    <h1>TODO: button to toggle read status, overall appearance</h1>
     <div id="header">
         <button id="addBook">Add Book</button>
     </div>
@@ -20,19 +20,15 @@
         <form id="form">
 
             <div class="form-row">
-                <label for="title">Title</label><input id="title" type="text">
+                <label for="title">Title</label><input required id="title" type="text">
             </div>
 
             <div class="form-row">
-                <label for="author">Author</label><input id="author" type="text">
+                <label for="author">Author</label><input required id="author" type="text">
             </div>
 
             <div class="form-row">
-                <label for="pageCount">Page count</label><input id="pageCount" type="text">
-            </div>
-
-            <div class="form-row">
-                <label for="status">Reading status</label><input id="status" type="text">
+                <label for="pageCount">Page count</label><input required id="pageCount" type="number">
             </div>
 
             <button type="submit">Submit</button>
