@@ -85,6 +85,11 @@ function displayBook(title, author, pages) {
     container.appendChild(bookContainer);
 }
 
-addBookToLibrary("Blood Meridian", "Cormac Mccarthy", 311);
+addBookToLibrary("Blood Meridian", "Cormac Mccarthy", 368);
+addBookToLibrary("Crime and Punishment", "Fyodor Dostojevski", 624);
+addBookToLibrary("The Stand", "Stephen King", 1152);
+addBookToLibrary("Brave New World", "Aldous Huxley", 288);
+addBookToLibrary("For Whom The Bell Tolls", "Ernest Hemingway", 471);
+addBookToLibrary("2001: A Space Odyssey", "Arthur C. Clarke", 224)
 
 showBooks();

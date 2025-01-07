@@ -4,7 +4,7 @@ html, body {
 }
 
 div {
-    border: 1px solid red;
+    /*border: 1px solid red;*/
 }
 
 body {
@@ -12,32 +12,46 @@ body {
     flex-direction: column;
     width: 100vw;
     height: 100vh;
+    font-family: 'Roboto', sans-serif;
+}
+
+button {
+    border-radius: 5px;
+    width: 6rem;
+}
+
+#header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 20vh;
+    background-color: #0f172a;
 }
 
 #container {
     display: flex;
     justify-content: center;
-    align-items: center;
     flex-wrap: wrap;
+    height: 100%;
+    background-color: #cbd5e1;
 }
 
 .book {
-    border: 1px solid red;
     width: 20vw;
+    max-height: 22vh;
     margin: 1rem;
     text-align: center;
-}
-
-.form-row {
-    display: flex;
-    margin-bottom: 1rem;
+    background-color: #0f172a;
+    color: white;
+    border-radius: 15px;
 }
 
 #popup {
     width: 35vw;
 }
 
-#header {
-    width: 100vw;
-    height: 20vh;
+.form-row {
+    display: flex;
+    margin-bottom: 1rem;
 }
